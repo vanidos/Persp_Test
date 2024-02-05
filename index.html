@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Официальный интернет-магазин SMEG в России</title>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=f3ca8a5e-08f3-4e8b-beab-ac222daac03f" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="jquery.maskedinput.min.js" type="text/javascript"></script>
+    <script>
+$(function($){
+   $(".phone").mask("+7 (999) 999-9999");
+});
+</script>
+</head>
+<body>
+   
+<header class="header">
+    <div class="top-header">
+        <div class ="nav-left">
+            <div>
+                <p class="bold-font">Официальный интернет-магазин SMEG в России</p>
+                <p>Пн – Пт- с 10:00 до 18:00</p>
+                <p>Вс - выходной</p>
+            </div>
+            <div><a href="index.html"><img src="img/logo.png" alt="smeg logo"/></a></div>
+            <div class="nav-contacts">
+                  <div><img class="contacts-top-img-size"  src="img/phone_logo.png" ></div>
+                  <div> 8 800 707-00-29</div>  
+                  <div><img class="contacts-top-img-size" src="img/email.png"></div>
+                  <div><a href="book.html"> <div class="button">Обратный звонок</div></a></div>
+                  <div> <img class="contacts-top-img-size" src="img/magn_logo.png"></div>   
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+       
+        <div class="header_inner">
+             
+        <nav class="nav">
+            <a class="nav_link" href="">о нас</a>
+            <a class="nav_link" href="">главная</a>
+            <a class="nav_link" href="">шкафы</a>
+            <a class="nav_link" href="">панели</a>
+            <a class="nav_link" href="">вытяжки</a>
+            <a class="nav_link" href="">мойки</a>
+            <a class="nav_link" href="">смесители</a>
+            <a class="nav_link" href="">посудомойки</a>
+            <a class="nav_link" href="">стиральные машины</a>
+            <a class="nav_link" href="">холодильники</a>
+            <a class="nav_link" href="">сервис</a>
+            <a class="nav_link" href="">отзывы</a>
+            <a class="nav_link" href="">контакты</a>
+        </nav>
+    </div>
+    </div>
+</header>
+
+<!-- форма обратной связи начало -->
+
+<section class = "section">
+
+<div class="intro-background title-main"> 
+
+<div class="title-main-text">
+
+    <p>Продажа техники <b>SMEG</b> в Москве</p>
+
+<ul class = "secondary-text">  
+    <li>Каждому клиенту диагностика 0 руб.</li>
+    <li>Выезд мастера или курьера по Москве и МО</li>
+    <li>Фирменная гарантия на ремонт до 3х лет</li>
+    <li>Всем клиентам скидка ремонта на дому 30%</li>
+</ul>
+
+<div class="feedback__form">
+<div class="phone-field"><input type="text" class="phone" placeholder="Введите телефон">
+</div>
+
+<a href="book.html">
+   <div class="button">Отправить</div></a>
+
+</div>
+</div>
+</div> 
+</section>
+
+<!-- форма обратной связи конец -->
+
+<!-- карточки товаров начало -->
+
+<section class="section">
+
+<ul class="goods__cards">
+    <li class="cards__item">
+      <article class="card">
+        <div class="card__image">
+            <img src="img/cook_1.jpg" alt="cook">   
+        </div>
+        <div class="card__content">
+          <h3 class="card__title">Smeg PGF64-4</h3>
+          <p class="card__descr">
+            Газовая варочная панель, 61,7 см, нержавеющая сталь, низкий монтаж с бортиком 3 мм.
+          </p>
+          <h3 class="card__price">85 590 ₽</h3>
+          <button class="button">Заказать</button>
+        </div>
+      </article>
+    </li>
+    <li class="cards__item">
+      <article class="card">
+        <div class="card__image">
+            <img src="img/crane_3.jpg" alt="crane">
+        <div class="card__content">
+          <h3 class="card__title">Smeg MAP99CR</h3>
+          <p class="card__descr">
+            Смеситель однорычажный
+          </p>
+          <h3 class="card__price">69 990 ₽</h3>
+          <button class="button">Заказать</button>
+        </div>
+      </article>
+    </li>
+    <li class="cards__item">
+        <article class="card">
+          <div class="card__image">
+              <img src="img/fridge_2.jpg" alt="fridge">
+          </div>
+          <div class="card__content">
+            <h3 class="card__title">Smeg CVI338LX3</h3>
+            <p class="card__descr">
+              Холодильный шкаф для вина встраиваемый, 90 см
+            </p>
+            <h3 class="card__price">389 990 ₽</h3>
+            <button class="button">Заказать</button>
+          </div>
+        </article>
+      </li>
+    <li class="cards__item">
+      <article class="card">
+        <div class="card__image">
+            <img src="img/oven_1.jpg" alt="oven">
+        </div>
+        <div class="card__content">
+          <h3 class="card__title">Smeg CPF9IPYW
+          </h3>
+          <p class="card__descr">
+            Отдельностоящий варочный центр, 90х60 см, желтый
+          </p>
+          <h3 class="card__price">453 990 ₽</h3>
+          <button class="button">Заказать</button>
+        </div>
+      </article>
+    </li> 
+    
+    <li class="cards__item">
+      <article class="card">
+        <div class="card__image">
+            <img src="img/outtake_2.jpg" alt="outtake">
+        </div>
+        <div class="card__content">
+          <h3 class="card__title">Smeg KICV90BL</h3>
+          <p class="card__descr">
+            Вытяжка настенная, 90 см, черное стекло.
+          </p>
+          <h3 class="card__price">92 190 ₽</h3>
+          <button class="button">Заказать</button>
+        </div>
+      </article>
+    </li>  
+
+    <li class="cards__item">
+      <article class="card">
+        <div class="card__image">
+            <img src="img/pan_1.jpg" alt="pan">
+ 
+        <div class="card__content">
+          <h3 class="card__title">Smeg CKFD2811CRM</h3>
+          <p class="card__descr">
+            Глубокая сковорода с двумя ручками и крышкой, 28 см, кремовая
+          </p>
+          <h3 class="card__price">19 890 ₽</h3>
+          <button class="button">Заказать</button>
+        </div>
+      </article>
+    </li>
+    <li class="cards__item">
+        <article class="card">
+          <div class="card__image">
+            <img src="img/sink_1.jpg" alt="sink">
+          
+          </div>
+          <div class="card__content">
+            <h3 class="card__title">Smeg VSTR71BRX</h3>
+            <p class="card__descr">
+              Мойка. Нержавеющая сталь с PVD покрытием, цвет латунный
+            </p>
+            <h3 class="card__price">77 990 ₽</h3>
+            <button class="button">Заказать</button>
+          </div>
+        </article>
+      </li>
+    <li class="cards__item">
+      <article class="card">
+        <div class="card__image">
+            <img src="img/wash_1.jpg" alt="wash">  
+        </div>
+        <div class="card__content">
+          <h3 class="card__title">Smeg LSF147E</h3>
+          <p class="card__descr">
+            Отдельностоящая стиральная машина с сушкой, 60 см, класс E, цвет белый. Загрузка 7/4 кг, отжим до 1400 об./мин.
+          </p>
+          <h3 class="card__price">199 990 ₽</h3>
+          <button class="button">Заказать</button>
+        </div>
+      </article>
+    </li>
+</ul>
+</section>
+
+
+<!-- карточки товаров конец -->
+
+<!-- задать вопрос начало -->
+
+<section class = "section">
+
+<div class="form-background form__title-main"> 
+
+  <div class="wrapper__form">
+
+  <div class="form__main-text">
+  
+      <p><b><h1>Не нашли то, что искали?</h1></b></p>
+      <p>Оставьте заявку и наш специалист проконсультирует, и мы постараемся решить Вашу проблему</p>
+  
+  <div class="feedback__form">
+  <div class="phone-field"><input type="text" class="phone" placeholder="Введите телефон"></div>
+     <a href="book.html"> <div class="button">Оставить заявку</div></a>
+  </div>
+  </div>
+  </div> 
+</div>
+
+</section>
+
+<!-- задать вопрос конец -->
+
+<!-- о фабрике начало -->
+
+<div class="section">
+<div class="wrapper">
+  <div class="wrapper__image"><img src="img/factory_1.jpg" alt="factory_1"> </div>
+    <div class="wrapper__text">Smeg – это итальянский производитель бытовой техники, 
+      головной офис которого находится в городе
+       Гуасталла на севере Италии в провинции Реджио Эмилья. За рубежом
+        Smeg представлен 19-ю филиалами (Великобритания, Франция, Австрия, 
+        Бельгия, Нидерланды, Германия, Швеция, Дания, Испания, Португалия, 
+        Россия, Украина, Казахстан, ЮАР, Мозамбик, США, Австралия, Польша и 
+        Мексика), представительством в Саудовской Аравии и обширной сетью 
+        дистрибьюторов.</div>
+      
+    <div class="wrapper__text">Компания Smeg успела зарекомендовать себя не только среди производителей элитной бытовой техники, но и в профессиональном сегменте, имея подразделения Smeg Foodservice и Smeg Instruments, производящих оборудование для предприятий общественного питания и медицинских учреждений.
+    Группа компаний Smeg узнаваема во всем мире как удачный пример «Made in Italy» благодаря своей корпоративной культуре, где особое внимание уделяется качеству, технологической составляющей и дизайну продукции.</div>
+    <div class="wrapper__image"> <img src="img/factory_2.jpg" alt="factory_2"> </div>
+    </div>
+ </div>
+</div>
+
+<!-- о фабрике конец -->
+
+<!-- как мы работаем начало -->
+
+<div class="section">
+  <div class="article__title"><h1>Как мы работаем</h2></div>
+  <div class="wrapper">
+      <div class="wrapper__about">
+        <p><img src="img/sdesk_logo.png" alt="sdesk_logo"></p>
+        <p><h2>СООБЩАЕТЕ О ПРОБЛЕМЕ</h2></p>
+        <p>ЗВОНИТЕ В НАШ ЦЕНТР, ОПИСЫВАЕТЕ НЕИСПРАВНОСТЬ, В БЛИЖАЙШЕЕ ВРЕМЯ К ВАМ ПРИЕЗЖАЕТ НАШ БЕСПЛАТНЫЙ МАСТЕР ИЛИ КУРЬЕР.</p>
+      </div>
+      <div class="wrapper__about">
+        <p><img src="img/gears_logo.png" alt="gears_logo"></p>
+        <p><h2>БЕСПЛАТНАЯ ДИАГНОСТИКА</h2></p>
+        <p>НАШ МАСТЕР ПРОИЗВЕДЕТ НЕОБХОДИМУЮ ДИАГНОСТИКУ, СООБЩИТ О О РЕЗУЛЬТАТАХ И ПРЕДЛОЖИТ РЕШЕНИЕ.</p>
+      </div>        
+      <div class="wrapper__about">
+        <p><img src="img/tools_logo.png" alt="tools_logo"></p>
+        <p><h2>РЕМОНТ</h2></p>
+        <p>МЫ ДОГОВОРИМСЯ О ЦЕНЕ И СРОКАХ, МАСТЕР НАЧНЕТ РАБОТУ. ПОСЛЕ РЕМОНТА ТЕХНИКА ПРОХОДИТ ОБЯЗАТЕЛЬНОЕ ТЕСТИРОВАНИЕ.</p>
+      </div>
+      <div class="wrapper__about">
+        <p><img src="img/gears_logo.png" alt="gears_logo"></p>
+        <p><h2>РЕЗУЛЬТАТ</h2></p>
+        <p>ВЫ ПОЛУЧАЕТЕ ПОЛНОСТЬЮ ВЫПОЛНЕННЫЙ ОБЪЁМ РАБОТЫ С ГАРАНТИЕЙ КАЧЕСТВА.</p>
+      </div>
+      </div>
+   </div>
+</div>
+
+<!-- как мы работаем конец -->
+
+<!-- отзывы начало -->
+
+<div class="section">
+  <div class="article__title"><h1>Отзывы о нас</h2></div>
+  <div class="wrapper__feedback">
+   <div class="feedback__card">
+    <div class="feedback-text">Обслуживал холодильник в этом сервисном центре, после общения и консультации понял, что информацию доносят очень понятно, на обычном человеческом языке, показали что работают сами на своем оборудовании, дорожат репутацией и готовы выкладываться по полной, предоставили скидку, как сказано на сайте!!! Рекомендую всем кто ценит нормальное отношение к людям! Молодцы, спасибо»
+    
+      <div><img src="img/2gis.svg" alt="2gis_logo"></div></div>
+      <div class="feedback__card-person">
+        <div class="card-person-rate"><img src="img/autor13.png" alt="autor13"></div>
+        <div class="first__letter">Алёна</div>
+        <div><img src="img/stars.png" alt=""></div>
+        <div></div>
+      </div>
+   </div>
+   <div class="feedback__card">
+    <div class="feedback-text">С полгода назад в пылесос попала вода. После просушки работал нормально, но со временем начал произвольно выключаться. Отнес в сервисный центр. Оказалось, залитие имело последствия: окислились контакты на плате. Хорошо, что не пришлось менять плату. Починили, работает прекрасно.
+    <div><img src="img/yan.svg" alt="yan"></div></div>
+      <div class="feedback__card-person">
+        <div class="card-person-rate"><img src="img/autor14.png" alt="autor14"></div>
+        <div class="first__letter">екатерина</div>
+        <div><img src="img/stars.png" alt=""></div>
+        <div></div>
+      </div>
+   </div>
+   <div class="feedback__card">
+    <div class="feedback-text">
+      Всё супер!
+    <div><img src="img/google.svg" alt="2gis_logo"></div></div>
+      <div class="feedback__card-person">
+        <div class="card-person-rate"><img src="img/autor15.png" alt="autor13"></div>
+        <div class="first__letter">вика</div>
+        <div ><img src="img/stars.png" alt="stars"></div>
+        <div></div>
+      </div>
+   </div>
+   <div class="feedback__card">
+    <div class="feedback-text">Обслуживал холодильник в этом сервисном центре, после общения и консультации понял, что информацию доносят очень понятно, на обычном человеческом языке, показали что работают сами на своем оборудовании, дорожат репутацией и готовы выкладываться по полной, предоставили скидку, как сказано на сайте!!! Рекомендую всем кто ценит нормальное отношение к людям! Молодцы, спасибо»
+    <div><img src="img/2gis.svg" alt="2gis_logo"></div></div>
+      <div class="feedback__card-person">
+        <div class="card-person-rate first__letter"><img src="img/autor18.png" alt="autor13"></div>
+        <div class="first__letter">катя</div>
+        <div><img src="img/stars.png" alt="stars"></div>
+        <div></div>
+      </div>
+   </div>
+  </div>
+</div>
+
+<!-- отзывы конец -->
+ 
+<!-- футер начало -->
+
+<footer class="container">
+     
+  <div class="footer__sections">
+
+            <div class="footer__contacts">
+              <div class="section_header">
+                <h1 class="section-title">Контакты
+                <div class="section-underline"> </div> </h1>
+            </div>
+               
+            <div class="section_header">
+                <h1 class="section-contact">Адрес офиса</h1>
+                <div class="section-underline"> </div> 
+                <h5 class="section-contact-details">117105, г. Москва,
+                  Варшавское шоссе, д. 1А,
+                  БЦ "W-Plaza", левое крыло, 6 этаж, офис А-615.</h5>
+            </div>   
+            
+          <div class="section_header">
+                <h1 class="section-contact">Время работы:</h1>
+                <div class="section-underline"> </div>
+                <h5 class="section-contact-details"> пн-сб* с 10-00 до 18-00</h5> 
+          </div>
+        
+          <div class="section_header">
+                <h1 class="section-contact">Телефон</h1>
+                <div class="section-underline"> </div> 
+                <h5 class="section-contact-details">8 (800) 707-00-29</h5>
+          </div>
+          </div>
+            <div class="footer__map"> 
+              <div class="section_header">
+              <h1 class="section-contact">Схема проезда</h1>
+                </div>
+                <div id="map"></div></div>
+          </div>
+      </div>  
+</footer>
+
+<!-- футер конец -->
+  
+  <script type="text/javascript">
+  ymaps.ready(init); 
+  </script>
+  </body>
+  </html>
